@@ -1,0 +1,98 @@
+# ==========================================
+# COMP607 - Git Ignore Configuration
+# ==========================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.directory
+.Trash-*/
+
+# Microsoft Office Temporary Files
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.xls
+~$*.pptx
+~$*.ppt
+
+# Microsoft Office AutoRecovery
+*.asd
+*.wbk
+
+# LaTeX Temporary Files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.cache
+*.orig
+
+# Logs
+logs/
+*.log
+
+# Local Configuration
+config.local.json
+settings.local.json
